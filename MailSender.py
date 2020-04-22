@@ -9,8 +9,8 @@ from email.header import Header
 class MailSender():
 	def __init__(self):
 		self.mail_host="smtp.163.com"			                    #使用的邮箱的smtp服务器地址
-		self.sender="wenliang_303@163.com"
-		self.auth_code="wenliang303"
+		self.sender="wenliangzh_303@163.com"
+		self.auth_code="wenliangzh303"
 
 	def send_mail(self, to_list, sub, content, attchList):
 
